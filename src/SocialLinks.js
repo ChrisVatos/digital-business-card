@@ -6,6 +6,7 @@ function SocialLinks() {
     return(
         <div className="buttons">
             <button className="email-button">
+                <img className="email-symbol" src="./email-symbol.png" alt="email"/>
                 Email
             </button>
             <button className="linkedin-button">

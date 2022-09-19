@@ -8,11 +8,13 @@
 .business-card{
     margin-left: auto;
     margin-right: auto;
-    width: 72%;
+    width: 85%;
     height: 100vh;
     background-color: #1A1B21;
     border-radius: 15px;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    position: relative;
 }
+
 

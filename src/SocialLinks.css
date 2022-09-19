@@ -9,6 +9,7 @@
 
 .email-button {
     background-color: #D1D5DB;
+    border: 1px solid #D1D5DB;
     width: 6.5rem;
     height: 2.5rem;    
     border-radius: 8px;
@@ -16,12 +17,16 @@
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
     color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
 .linkedin-button {
     background-color: #5093E2;
+    border: 1px solid #5093E2;
     width: 6.5rem;
     height: 2.5rem;
     border-radius: 8px;
@@ -34,7 +39,16 @@
     align-items: center;
 }
 
+
 .linkedin-logo-white {
-    height: 20px;
-    width: 20px;
+    height: 1.1rem;
+    width: 1.1rem;
+    background-color: #5093E2;
+}
+
+.email-symbol {
+    height: 1.7rem;
+    width: 1.7rem;
+    background-color: #D1D5DB;
+    padding-right: 4px;
 }

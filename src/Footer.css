@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.footer {
+    background-color: #161619;
+    font-family: 'Inter', sans-serif;
+    border-radius: 15px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer h4, h5{
+    background-color: #161619;
+    color: white;
+    font-weight: 400;
+}
+
+.telephone {
+    font-size: 1rem;
+    padding-bottom: 0.8rem;
+
+}
+ 
+.email {
+    font-size: 1rem;
+    padding-bottom: 0.8rem;
+}
+
+.telephone  span {
+    background-color: #161619;
+    color: #5093E2;
+
+}
+ 
+.email span {
+    background-color: #161619;
+    color: #5093E2;
+}
+
