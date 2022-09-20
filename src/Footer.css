@@ -19,6 +19,11 @@
     margin-top: 0.6rem;
 }
 
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+
 @media only screen and (min-width: 600px) {
     
     .github-logo {

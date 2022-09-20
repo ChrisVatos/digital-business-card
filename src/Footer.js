@@ -4,7 +4,9 @@ import './Footer.css'
 function Footer() {
     return(
         <footer className="footer">
-            <img className="github-logo" src="./github-logo.png"></img>
+            <a href="https://github.com/ChrisVatos">
+                <img className="github-logo" src="./github-logo.png" alt="github"></img>
+            </a>
         </footer>
 
     );
