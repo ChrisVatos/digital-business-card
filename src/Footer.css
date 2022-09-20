@@ -12,31 +12,19 @@
     text-align: center;
 }
 
-.footer h4, h5{
+.github-logo{
+    width: 45px;
+    height: 45px;
     background-color: #161619;
-    color: white;
-    font-weight: 400;
+    margin-top: 0.6rem;
 }
 
-.telephone {
-    font-size: 1rem;
-    padding-bottom: 0.8rem;
-
-}
- 
-.email {
-    font-size: 1rem;
-    padding-bottom: 0.8rem;
-}
-
-.telephone  span {
-    background-color: #161619;
-    color: #5093E2;
-
-}
- 
-.email span {
-    background-color: #161619;
-    color: #5093E2;
-}
+@media only screen and (min-width: 600px) {
+    
+    .github-logo {
+        margin-top: 1.2rem;
+        width: 80px;
+        height: 80px;
+    }
+} 
 

@@ -10,7 +10,7 @@ import Footer from './Footer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div className="business-card">
+  <div onload="window.resizeTo(200,500)" className="business-card">
     <Navbar />
     <SocialLinks />
     <AboutMe />

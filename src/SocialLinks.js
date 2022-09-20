@@ -9,10 +9,12 @@ function SocialLinks() {
                 <img className="email-symbol" src="./email-symbol.png" alt="email"/>
                 Email
             </button>
-            <button className="linkedin-button">
+            <a href="https://www.linkedin.com/in/chrisvatos/">
+                <button className="linkedin-button">
                 <img className="linkedin-logo-white" src="./linkedin-logo-white.png" alt="linkedin"/>
-                LinkedIn
-            </button>
+                    LinkedIn
+                </button>
+            </a>
         </div>
 
     );

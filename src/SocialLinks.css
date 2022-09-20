@@ -35,7 +35,7 @@
     font-size: 1rem;
     color: #FFFFFF;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -44,6 +44,7 @@
     height: 1.1rem;
     width: 1.1rem;
     background-color: #5093E2;
+    margin-right: 8px;
 }
 
 .email-symbol {
@@ -51,4 +52,48 @@
     width: 1.7rem;
     background-color: #D1D5DB;
     padding-right: 4px;
+}
+
+.linkedin-button:hover {
+    opacity:0.5;
+}
+
+.email-button:hover {
+    opacity:0.5;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .buttons {
+        margin-top: 1.8rem;
+    }
+
+    .linkedin-button, .email-button {
+        width: 16rem;
+        height: 3.5rem;
+        font-size: 1.5em;
+    }
+
+    .linkedin-logo-white {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .email-symbol {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+ 
+
+
 }
